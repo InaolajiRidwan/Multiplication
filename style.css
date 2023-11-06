@@ -1,9 +1,8 @@
+
 body {
-    background: yellow;
+    background: lightblue;
     align-items: center;
-
 }
-
 
 #display {
     display: flex;
@@ -16,4 +15,26 @@ body {
 #container {
     display: flex;
     flex-wrap: wrap;
+}
+
+
+
+@media (max-width: 768px) {
+    body {
+        background: lightblue; 
+
+    
+    #display {
+        display: block;
+    }
+
+    #dis {
+        display: block;
+    }
+
+    #container {
+        display: block;
+    }
+}
+
 }
