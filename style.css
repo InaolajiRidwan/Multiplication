@@ -1,6 +1,6 @@
 body {
   min-height: 100vh;
-  display: block;
+  display: flex;
   justify-content: center;
   align-items: center;
   background-color: white;
